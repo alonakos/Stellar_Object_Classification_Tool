@@ -2,9 +2,6 @@
 
 Production-oriented ML system for classifying SDSS objects into **star**, **galaxy**, or **quasar** using tabular photometric features.
 
-**Team:** Group 7 — Alyona Kosobokova, Ian Rebmann  
-**Project:** https://github.com/alonakos/aai-540-final-project
-
 ## Overview
 This project builds an end-to-end multiclass classification pipeline using SDSS DR17-style data (~100k rows). The workflow includes preprocessing, feature engineering (color indices), model training (XGBoost), evaluation (macro-F1), batch inference, and basic production monitoring.
 
@@ -34,7 +31,3 @@ This project builds an end-to-end multiclass classification pipeline using SDSS 
 
 ## Goal
 Deliver a reproducible, deployment-ready ML system with clear monitoring and documentation for scientific use.
-
-## Links
-- Asana: https://app.asana.com/1/952672460738672/project/1212825865946195/board/1212826036922316  
-- Team Tracker: https://docs.google.com/document/d/14sOXqJiOQrAZ4qY4rBN0UOZr0YqLy6sNRUPND_ztR4g/edit?usp=sharing
