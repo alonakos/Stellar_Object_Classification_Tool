@@ -5,7 +5,7 @@ Production-oriented ML system for classifying SDSS objects into **star**, **gala
 ## Overview
 This project builds an end-to-end multiclass classification pipeline using SDSS DR17-style data (~100k rows). The workflow includes preprocessing, feature engineering (color indices), model training (XGBoost), evaluation (macro-F1), batch inference, and basic production monitoring.
 
-## Data Stellar Classification Dataset (SDSS17)
+## Data: Stellar Classification Dataset (SDSS17)
 - Features: u, g, r, i, z magnitudes, sky position, redshift
 - Labels: STAR, GALAXY, QSO
 - IDs and operational columns excluded from modeling
@@ -14,7 +14,7 @@ This project builds an end-to-end multiclass classification pipeline using SDSS 
 - Problem type: supervised multiclass classification  
 - Primary metric: macro-F1  
 - Baselines explored CatBoost, LightGBM  
-- Selected model SageMaker XGBoost
+- Selected model: SageMaker XGBoost
 
 ## Pipeline
 1. Validate schema and clean data  
